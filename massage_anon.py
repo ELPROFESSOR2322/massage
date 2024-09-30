@@ -14,13 +14,8 @@ time.sleep(3)
 print("now open the massage")
 time.sleep(20)
 
-os.system("unknown.txt")
+os.system("nano unknown.txt")
 print("you see..")
-def web():
-    run_windows=1
-    open_url1="https://web.telegram.org/a/#7351878876"
-    for i in range(run_windows):
-        webbrowser.open(open_url1)
 
 
 
